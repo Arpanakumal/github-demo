@@ -3,3 +3,8 @@ ARPANA KUMAL
 I want to learn about Git and Github.
 I want to learn about project management.
 haaahahahahahhahaah
+
+I learned about basic Git commands.
+I learned how to setup Git in a windows machine.
+I learned how to create repository and add local files into that repository.
+I learned how to add specific files and write a commit message.
