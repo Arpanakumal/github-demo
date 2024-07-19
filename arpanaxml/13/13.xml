@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<patients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="13.xsd">
+
+<patient no="00125">
+    <name>
+    <fname>Shruti</fname>
+    <mname>Kumari</mname>
+    <lname>Lama</lname>
+</name>
+    <disease>
+        <name>
+        <name1>Obesity</name1>
+        <name2>Diabetes  </name2>
+    </name>
+    </disease>
+    <labTest>
+        <lab1>Blood sample</lab1>
+        <lab2>Urine sample</lab2>
+    </labTest>
+
+    <doctor>
+        <namne>
+            <fname>Suman</fname>
+            <mname>Jung</mname>
+            <lname>Karki</lname>
+        </namne> 
+    </doctor>
+        <consultation charge="5500"></consultation>
+
+</patient>
+</patients>

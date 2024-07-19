@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+        <xs:complexType name="nameType">
+            <xs:sequence>
+                <xs:element name="fname" type="xs:string"></xs:element>
+                <xs:element name="mname" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                <xs:element name="lname" type="xs:string"></xs:element>
+           </xs:sequence>
+         </xs:complexType>
+        <xs:complexType name="diseaseType">
+            <xs:sequence>
+                <xs:element name="name1" type="xs:string"></xs:element>
+                <xs:element name="name2" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="labTestType">
+            <xs:sequence>
+                <xs:element name="lab1" type="xs:string"></xs:element>
+                <xs:element name="lab2" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="doctor">
+            <xs:sequence>
+                <xs:element name="fname" type="xs:string"></xs:element>
+                <xs:element name="mname" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                <xs:element name="lname" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:element name="patient">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="name" type="xs:string"></xs:element>
+                    <xs:element name="disease" type="xs:string"></xs:element>
+                    <xs:element name="doctor" type="xs:string"></xs:element>
+                </xs:sequence>
+                <xs:attribute name="no" type="xs:int"></xs:attribute>
+                <xs:attribute name="charge" type="xs:int"></xs:attribute>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="patients">
+            <xs:complexType>
+            <xs:sequence>
+                <xs:element name="patient" type="xs:anyType" minOccurs="0" maxOccurs="unbounded"></xs:element> 
+            </xs:sequence>
+            </xs:complexType>
+    
+            
+        </xs:element>
+
+
+
+
+</xs:schema>

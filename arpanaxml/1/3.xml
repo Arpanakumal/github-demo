@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+<song  id="1">
+<name="ABCD ">
+</name >
+<singer>
+<fname="Nayeon"></fname>
+<lname="Lim"></lname>
+</singer>
+<compose by>
+<fname="Jay"></fname>
+<lname=""park"></lname>
+</compose>
+<length duration="3:00"></length>
+</song>
+<song  id="2">
+<name="Blank Space">
+</name >
+<singer>
+<fname="Taylor "></fname>
+<lname="Swift"></lname>
+</singer>
+<compose by>
+<fname=""></fname>
+<lname="""></lname>
+</compose>
+<length duration="3:45"></length>
+</song>
+<song  id="3">
+<name=" ">
+</name >
+<singer>
+<fname="></fname>
+<lname=""></lname>
+</singer>
+<compose by>
+<fname="Jay"></fname>
+<lname=""park"></lname>
+</compose>
+<length duration="2:50"></length>
+</song>
+<song  id="4">
+<name=" ">
+</name >
+<singer>
+<fname=""></fname>
+<lname=""></lname>
+</singer>
+<compose by>
+<fname=""></fname>
+<lname=""></lname>
+</compose>
+<length duration="3:30"></length>
+</song>
+</songs>

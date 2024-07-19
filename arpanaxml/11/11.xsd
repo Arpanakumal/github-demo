@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="student">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstname" type="xs:string"></xs:element>
+                <xs:element name="lastname" type="xs:string"></xs:element>
+                <xs:element name="age" type="xs:string"></xs:element>
+                <xs:element name="university" type="xs:int"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="regid" type="xs:int"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="students">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" type="xs:anyType" minOccurs="0" maxOccurs="unbounded" ></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

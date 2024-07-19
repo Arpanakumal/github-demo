@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<Oceans>
+    
+    <ocean>
+        <name>Arctic</name>
+        <area>Area : 13,000 million km&#xB2;</area>
+        <meandepth> Mean depth: 1,200 meter </meandepth>
+ </ocean>
+    <ocean>
+        <name>Atlantic</name>
+        <area> Area : 87,000 million km&#xB2;</area>
+        <meandepth> Mean depth: 3,900 meter </meandepth>
+    </ocean>
+    <ocean>
+        <name>Pacific</name>
+        <area> Area : 1,80,000 million km&#xB2;</area>
+        <meandepth> Mean depth : 4,000 meter </meandepth>
+    </ocean>
+    <ocean>
+        <name>Indian</name>
+        <area> Area : 75,000 km&#xB2;</area>
+        <meandepth> Mean depth : 3,900 meter</meandepth>
+    </ocean>
+    <ocean>
+        <name>Southern</name>
+        <area> Area : 20,000 km&#xB2;</area>
+        <meandepth> Mean depth : 4,500 meter</meandepth>
+    </ocean>
+</Oceans>
